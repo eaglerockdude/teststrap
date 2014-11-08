@@ -3,8 +3,9 @@ ruby '2.1.1'
 
 gem 'rails', '~>4.0'
 
-gem 'pg'
+# gem 'pg'
 
+gem 'activesupport', '4.1.6'
 gem 'unicorn'
 
 # Gems used only for assets and not required
@@ -29,7 +30,9 @@ gem 'devise'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'sqlite3'
 end
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
